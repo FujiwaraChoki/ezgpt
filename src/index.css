@@ -1,0 +1,11 @@
+/*Import Inter var font*/
+@import url("https://rsms.me/inter/inter.css");
+
+body {
+  font-family: "Inter var", sans-serif;
+  padding: 20px;
+}
+
+.title {
+  padding: 20px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <!--Bootstrap V4 & Heroicons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 class="title">💖 ezgpt</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Revolutionize the way you use GPT-3.</h5>
+              <p class="card-text">
+                Start using ChatGPT-3 in your everyday life effectively, with the help of ezgpt.
+                Try it now!
+              </p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#howItWorksModal">
+                Try it!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="howItWorksModal" tabindex="-1" role="dialog" aria-labelledby="howItWorksModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="howItWorksModalLabel">How it works</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                ezgpt is a simple web app that allows you to use GPT-3 in your everyday life.
+                It's as simple as typing in a question and getting an answer.
+              </p>
+              <p>
+                To get started, just type in a question and click the "Ask GPT-3" button.
+                You can also use the "Clear" button to clear the text box.
+              </p>
+              <p>
+                ezgpt uses the OpenAI API to get answers from GPT-3.
+                You can read more about the OpenAI API <a href="https://beta.openai.com/docs/api-reference/introduction">here</a>.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Okay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+  </body>
+</html>

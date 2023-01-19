@@ -1,0 +1,33 @@
+{
+  "name": "ezgpt",
+  "productName": "ezgpt",
+  "version": "1.0.0",
+  "description": "A JavaScript App which revolutionizes the way you use GPT-3.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Sami",
+    "email": "78088687+FujiwaraChoki@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-alert": "^0.1.20",
+    "electron-squirrel-startup": "^1.0.0",
+    "openai-api": "^1.3.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "22.0.3"
+  }
+}
