@@ -3,10 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <title>ezgpt</title>
-    <!--Bootstrap V4 & Heroicons-->
+    <meta
+      name="description"
+      content="Revolutionize the way you use GPT-3."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <link rel="stylesheet" href="index.css" />
   </head>
@@ -64,7 +74,21 @@
           </div>
         </div>
       </div>
+
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted text-center">
+            Made with ❤️ by <a href="https://github.com/FujiwaraChoki/">Sami Hindi</a>.
+            <br />
+            <br />
+          </span>
+        </div>
+        <div class="container">
+          <button class="btn btn-success clear-clipboard-button">Clear clipboard</button>
+        </div>
+      </footer>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+      <script src="renderer.js"></script>
   </body>
 </html>
