@@ -4,10 +4,19 @@
 body {
   font-family: "Inter var", sans-serif;
   padding: 20px;
+  background-image: url("https://source.unsplash.com/random/1920x1080?nature,water");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #fff, 0 0 7px #fff, 0 0 8px #fff, 0 0 9px #fff, 0 0 10px #fff;
 }
 
 .title {
   padding: 20px;
+}
+
+.card {
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 
 .footer {
@@ -15,6 +24,16 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: transparent;
   padding: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.github-button {
+  color: rgb(108, 208, 255);
+  cursor: pointer;
+}
+
+.github-button:hover {
+  text-decoration: underline;
 }

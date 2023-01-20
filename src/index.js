@@ -4,6 +4,9 @@ const openai = require("openai-api");
 const path = require("path");
 const process = require("process");
 
+// Load the OpenAI API key from the .env.local file
+require("dotenv").config({ path: path.join(__dirname, ".env.local") });
+
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -57,8 +60,8 @@ const createWindow = () => {
 
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1920,
+    height: 1080,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
